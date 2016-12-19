@@ -1,0 +1,17 @@
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+
+body{
+  background-image: url('food2.jpg');
+
+  background-size: cover;
+}
+
+
+h1{
+  font-family: fantasy;
+  color: brown;
+  text-align: center;
+}
