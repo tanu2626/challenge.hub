@@ -18,6 +18,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'simple_form'
+gem 'rails_bootstrap_navbar'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
