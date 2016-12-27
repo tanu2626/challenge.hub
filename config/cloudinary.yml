@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dojmmzplt
+  api_key: '891365656141465'
+  api_secret: V2OAa0BclzLnRw4CMeCDlbSQ4-w
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dojmmzplt
+  api_key: '891365656141465'
+  api_secret: V2OAa0BclzLnRw4CMeCDlbSQ4-w
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dojmmzplt
+  api_key: '891365656141465'
+  api_secret: V2OAa0BclzLnRw4CMeCDlbSQ4-w
+  enhance_image_tag: true
+  static_image_support: false
