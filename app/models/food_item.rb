@@ -11,4 +11,9 @@ class FoodItem < ApplicationRecord
 
   end
 
-end
+
+   def self.filter_by_section(section)
+     where(section: section)
+   end
+
+  end

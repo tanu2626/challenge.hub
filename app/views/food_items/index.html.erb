@@ -14,6 +14,7 @@
     </tr>
   </thead>
 
+
   <tbody>
     <% @food_items.each do |food_item| %>
       <tr>
@@ -25,6 +26,7 @@
         <td><%= link_to 'Show', food_item %></td>
         <td><%= link_to 'Edit', edit_food_item_path(food_item) %></td>
         <td><%= link_to 'Destroy', food_item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+       <td> <%= link_to "Add to Cart", :controller => :mycart, :action => :index %></td>
       </tr>
     <% end %>
   </tbody>
